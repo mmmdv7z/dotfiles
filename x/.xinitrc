@@ -52,4 +52,5 @@ fi
 
 xrandr --output eDP --set "TearFree" on
 xcompmgr &
+dunst &
 exec dbus-run-session i3
